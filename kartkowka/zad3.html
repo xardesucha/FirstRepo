@@ -1,0 +1,24 @@
+<html>
+    <head> zadanie 3 Krzysztof Rykaczewski </head> 
+    <body>
+    <br>
+<script language="Javascript">
+    function lot(nazwa,rok,pochodzenie,cena, kolor)
+    {
+        this.nazwa=nazwa;
+        this.rok=rok;
+        this.pochodzenie=pochodzenie;
+        this.cena=cena;
+        this.kolor=kolor;
+    }
+    helikopter1 = new lot("\tHelikopter1\t",1980,"\tNiemcy\t",10000, "\tczarny\t")
+    helikopter2 = new lot("\tHelikopter2\t",1975,"\tNiemcy\t",30000, "\tzielony\t")
+    helikopter3 = new lot("\tHelikopter3\t",1970,"\tUSA\t",30000, "\tbiały\t")
+    
+    document.write ("Nazwa: " + helikopter1.nazwa + ", rok: " + helikopter1.rok + ", pochodzenie: " + helikopter1.pochodzenie + ", cena czołgu: " + helikopter1.cena + ", kolor helikopteru: " + helikopter1.kolor + "<br>")
+    document.write ("Nazwa: " + helikopter2.nazwa + ", rok: " + helikopter2.rok + ", pochodzenie: " + helikopter2.pochodzenie + ", cena czołgu: " + helikopter2.cena + ", kolor helikopteru: " + helikopter2.kolor + "<br>")
+    document.write ("Nazwa: " + helikopter3.nazwa + ", rok: " + helikopter3.rok + ", pochodzenie: " + helikopter3.pochodzenie + ", cena czołgu: " + helikopter3.cena + ", kolor helikopteru: " + helikopter3.kolor + "<br>")
+    
+    </script>
+    </body>
+    </html>
